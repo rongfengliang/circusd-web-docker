@@ -7,5 +7,5 @@ use pip install
 * pull docker image
 
 ```code
-docker pull dalongrong/circus-web
+docker pull dalongrong/circusd-web
 ```
