@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y  --reinstall build-essential \
     && pip uninstall -y tornado  \
     && pip uninstall -y pyzmq  \
     && pip install tornado==3.2.2 \
-    && pip install pyzmq==17.0.0 \
+    && pip install pyzmq==16.0.4 \
     && apt-get remove -y --purge build-essential \
     && rm -rf /var/lib/apt/lists/*
 COPY entrypoint.sh /entrypoint.sh
